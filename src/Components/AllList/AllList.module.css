@@ -1,0 +1,64 @@
+.addedItems {
+  width: 20vw;
+  padding: 0vw 0.4vw;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 2px;
+  list-style: none;
+  font-family: sans-serif, lato;
+  transition: 0.2s ease-in-out;
+}
+.addedItems:hover {
+  background-color: #d6d6d6;
+}
+.logo {
+  display: inline-block;
+  font-size: 2.6vw;
+  position: relative;
+  top: 0.4vw;
+  color: #ac3b3b;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.logo:hover {
+  color: #da3838;
+}
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0.3vw;
+  font-size: 2vw;
+  color: green;
+}
+@media only screen and (max-width: 600px) {
+  .addedItems {
+    width: 65vw;
+    padding: 1vw 2vw;
+    font-size: 4vw;
+    margin-top: 5px;
+  }
+  .logo {
+    display: inline-block;
+    font-size: 7vw;
+    position: relative;
+    top: 1vw;
+    cursor: pointer;
+  }
+  .check {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0.5vw;
+    font-size: 5vw;
+    color: green;
+  }
+}
